@@ -1,0 +1,535 @@
+
+body,h1,h2,h3,h4,p {
+    font-family: 'Open Sans',sans-serif,arial;
+    box-sizing: border-box;
+    font-weight: 100;
+    letter-spacing: 0.2px;
+
+}
+
+.wrapper {
+    max-width: 1100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+p,li {
+    line-height: 25px;
+	font-size: 0.85em;
+}
+
+
+/***************************************** HEADER
+    *****************************************/
+header {
+    background: url(../img/images/headerBG.jpg) center center;
+    height: 75vh;
+    background-size: cover;
+    color: #fff;
+	background-attachment:scroll;
+}
+
+
+header img {
+    margin-top: 30px;
+}
+
+header .left-header {
+    margin-top: 5vh;
+    max-width: 450px;
+}
+
+header h1 {
+    font-weight: 100;
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 16px;
+    font-size: .85em;
+}
+
+/***************************************** MAIN
+    *****************************************/
+#main .row {
+    margin-bottom: 105px;
+}
+
+
+#main p {
+	color: #959595;
+}
+
+#main .container  p {
+    color: #959595;
+}
+
+
+#main .col,.right {
+    padding: 1%;
+}
+
+#main .right h2 {
+    margin-top: 2em;
+    font-size: 2em;
+}
+
+#main .iphone {
+    width: 55vh;
+	max-width: 700px;
+    position: absolute;
+    bottom: 100px;
+    right: 20%;
+}
+
+
+#main .item-1 {
+    background-color: #f5989d;
+    background-size: cover;
+}
+
+#main .item-2 {
+    background-color: #615f7d;
+    background-size: cover;
+}
+
+#main .item-3 {
+    background: url(../img/images/flexbox3.jpg) no-repeat no-repeat center;
+    background-size: cover;
+}
+
+#main .item-4 {
+    background: url(../img/images/flexbox5.jpg) no-repeat no-repeat center;
+    background-size: cover;
+}
+
+#main .item-5 {
+    background: url(../img/images/flexbox6.jpg) no-repeat no-repeat center;
+    background-size: cover;
+}
+
+#main .item {
+    color: #fff;
+    min-width: 250px;
+    padding: 30px 0;
+}
+
+#main .item p {
+    color: #fff;
+    font-size: .8em;
+    max-width: 80%;
+    padding-left: 20px;
+}
+
+#main .item h2 {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+
+#main .col h3 {
+	font-weight: 500;
+}
+
+
+
+#main .details {
+    font-size: 2em;
+    margin-top: 100px;
+    font-weight: ;
+}
+
+#main .item {
+	display: flex;
+	flex-direction: column;
+}
+
+
+/***************************************** 
+FULL-IMAGE
+*****************************************/
+#full-image {
+    background: url(../img/images/carBG.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+	background-attachment: scroll; 
+}
+
+#full-image h1 {
+    font-size: 3.5em;
+    max-width: 470px;
+}
+
+#full-image p {
+    max-width: 400px;
+    font-size: .85em;
+}
+
+.text-arrow {
+	display: inline;
+	width: 150px;
+}
+
+.text-arrow:hover {
+	cursor: pointer;
+}
+
+#full-image .box {
+    padding: 300px 0 100px;
+}
+
+
+/*****************************************
+REASONS
+*****************************************/
+ #reasons {
+    background-color: #82ca9c;
+    color: #fff;
+}
+
+#reasons h2 {
+    margin-top: 0;
+    padding-top: 100px;
+    font-size: 2em;
+}
+
+#reasons .col {
+    padding: 1%;
+    font-size: .85em;
+}
+
+#reasons h3 {
+    font-weight: 700;
+}
+
+#reasons .row {
+    padding: 40px 0 150px;
+}
+
+#reasons .col {
+    min-width: 200px;;
+}
+
+
+
+/***************************************** 
+BUY-NOW
+*****************************************/
+#buy-now {
+    background-color: #f6f7fa;
+}
+
+#buy-now .mark-grey {
+    font-size: .6em;
+    font-weight: 700;
+    color: #fff;
+    background-color: #e1e1e1;
+    display: inline;
+    padding: 7px 17px;
+    border-radius: 7px;
+}
+
+#buy-now .mark-purple {
+    font-size: .6em;
+    font-weight: 700;
+    color: #fff;
+    background-color: #bd8cbf;
+    display: inline;
+    padding: 7px 17px;
+    border-radius: 7px;
+}
+
+#buy-now .row {
+    padding: 70px 0;
+}
+
+#buy-now .col {
+    padding: 40px;
+}
+
+#buy-now .col-2 {
+    background-color: #fff;
+    box-shadow: 2px -2px 100px #ccc;
+}
+
+#buy-now p {
+    font-size: .86em;
+    color: #94a6b3;
+}
+
+#buy-now button {
+    background-color: #82ca9c;
+    border: none;
+    font-weight: 700;
+    color: #fff;
+    font-size: .8em;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/***************************************** FOOTER
+    *****************************************/
+footer {
+    background-color: #192431;
+    color: #cccdd1;
+    font-size: .8em;
+}
+
+footer .row-first {
+padding: 70px 0;	
+}
+
+footer .submit {
+    display: inline;
+}
+
+footer .row-second {
+    text-align: left;
+	padding-bottom: 50px;
+}
+
+footer ul {
+ list-style: none;
+}
+
+footer ul li {
+ position: relative;
+ left: -22px;
+}
+
+footer
+.row-first .col {
+ text-align: center;
+}
+
+footer p.spam {
+    color: #94a6b3;
+}
+
+
+footer h4 {
+    font-weight: bold;
+	margin:0;
+}
+
+footer button {
+    background-color: #82ca9c;
+    border: none;
+    margin: 0;
+    position: relative;
+    left: -5px;
+    top: 4px;
+    width: 46px;
+    font-size: 2em;
+    color: #fff;
+    display: inline;
+    border-radius:none;
+	width:70px;
+	height: 56px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+footer form input {
+    width: 70%;
+    display: inline-block;
+	border-radius: none; 
+	padding: 20px 10px 20px 20px;
+	border: none;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+
+#main .text-arrow {
+	margin-top: auto;
+
+}
+
+#main .item {
+	width: 100%;
+	}
+
+footer .row-second .col {
+	width: 49%;
+	display: inline-block;
+	
+	}
+
+footer .row-second .col li {
+	left: -40px;
+	
+}
+
+
+
+/***************************************** 
+FLEXBOX 
+*****************************************/
+
+.flex {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+
+
+
+/***************************************** 
+FOR IPHONE 
+*****************************************/
+
+@media screen and (max-width: 1000px) {
+	#main .iphone {
+		display: none;
+		
+	}
+	#main .right p {
+		width: 100%;
+	} 
+
+}
+
+
+
+	
+
+@media screen and (min-width: 1100px) {
+	header {
+		background-attachment:fixed;
+		
+	}
+	
+	#full-image {
+		background-attachment: fixed;
+	}
+}
+
+	
+/***************************************** 
+MEDIA QUERIES 
+*****************************************/
+
+@media screen and (min-width: 480px) {
+	
+	footer .row-second .col {
+		width: 32%;
+		display: inline-block;
+	}
+	
+	header .left-header {
+    margin-top: 10vh;
+    max-width: 450px;
+}
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 600px) {
+	
+	
+	
+	#main .item {
+		width: 100%;
+	}
+	#main .item-1 {
+		width: 50%;
+	}
+	
+	#main .item-2 {
+		width: 50%;
+	}
+	
+	.flex-1 {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+	}
+	
+	
+	#reasons .col-1 {
+		width: 50%;
+		
+	}
+	
+	#reasons .col-2 {
+		width: 50%;
+		
+	}
+	
+	#reasons .col-3 {
+		width: 100%;
+		
+	}
+	
+	#details-row .col {
+		width: 48%;
+		display: inline-block;
+	}
+	
+	
+	header .left-header {
+    margin-top: 10vh;
+    max-width: 450px;
+}
+	
+	
+	
+
+@media screen and (min-width: 960px) {
+	
+	.wrapper {
+		width: 80%;
+	}
+	
+
+	#main .item {
+		width: 33.33%;
+	}
+	
+	#main .item-4 {
+		width: 66.66%;
+	}
+	
+	#reasons .col {
+		width: 33%;
+	}
+	
+	
+	#details-row .col {
+		width: 23%;
+		display: inline-block;
+	}
+	
+	header .left-header {
+    margin-top: 20vh;
+    max-width: 450px;
+}
+	
+	footer .row-first {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	footer .row-first .col {
+		flex:1;
+	}
+	footer .row-second {
+		width: 50%;
+	} 
+	
+	
+	}
+	
